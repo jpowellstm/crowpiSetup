@@ -8,4 +8,8 @@ sudo dpkg -i codium_1.84.2.23319_armhf.deb
 rm codium_1.84.2.23319_armhf.deb
 
 # Install extensions
+wget https://github.com/microsoft/vscode-cpptools/releases/download/1.3.1cpptools-linux.vsix
 codium --install-extension https://github.com/microsoft/vscode-cpptools/releases/download/1.3.1/cpptools-linux.vsix
+
+
+
